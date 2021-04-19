@@ -1,5 +1,3 @@
-
-
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Set;
@@ -44,9 +42,8 @@ public class Solution {
     return findLargestIslandArea();
   }
 
-
-
- // @return The largest island area (a single island or a groupd of connected islands).
+  
+  //@return The largest island area (a single island or a groupd of connected islands).
   public int findLargestIslandArea() {
 
     int largestIslandArea = 0;
