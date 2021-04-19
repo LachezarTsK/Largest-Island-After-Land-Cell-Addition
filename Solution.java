@@ -111,7 +111,7 @@ public class Solution {
 
   /*
     Breadth First Search: a helper method to method 'mapIslands_findIslandsArea()'.
-    Maps the island, starting from the given input, calculates its area and designates a unique key to it.
+    Maps an island, starting from the given input, calculates its area and designates a unique key to it.
   */
   public void bfs_islands(int r, int c, int islandKey) {
 
