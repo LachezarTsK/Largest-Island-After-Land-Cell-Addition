@@ -1,4 +1,4 @@
-package largestIslandAfterLandCellAddition.gitHub;
+
 
 import java.util.Map;
 import java.util.HashMap;
@@ -21,11 +21,11 @@ public class Solution {
   };
 
   /*
-  By the problem design on www.binarysearch.com, we have to work
-  around the given method 'public int solve(int[][] matrix)' in order for the code
-  to be able to run on the website. Even though the name 'solve' does not make
-  a lot of sense, it is left as it is, so that the code can be run directly on the website,
-  without any modifications.
+    By the problem design on www.binarysearch.com, we have to work
+    around the given method 'public int solve(int[][] matrix)' in order for the code
+    to be able to run on the website. Even though the name 'solve' does not make
+    a lot of sense, it is left as it is, so that the code can be run directly on the website,
+    without any modifications.
   */
   public int solve(int[][] matrix) {
     this.matrix = matrix;
@@ -44,9 +44,9 @@ public class Solution {
     return findLargestIslandArea();
   }
 
-  /*
-  @return The largest island area (a single island or a groupd of connected islands).
-  */
+
+
+ // @return The largest island area (a single island or a groupd of connected islands).
   public int findLargestIslandArea() {
 
     int largestIslandArea = 0;
