@@ -19,7 +19,7 @@ public class Solution {
   };
 
   /*
-    By the problem design on www.binarysearch.com, we have to work
+    By the problem design on binarysearch.com, we have to work
     around the given method 'public int solve(int[][] matrix)' in order for the code
     to be able to run on the website. Even though the name 'solve' does not make
     a lot of sense, it is left as it is, so that the code can be run directly on the website,
